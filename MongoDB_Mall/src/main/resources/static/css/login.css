@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    position:relative;
+    width:100%;
+    height:640px;
+    background: -webkit-linear-gradient(top,#209C94,#258AC0);
+    background: -moz-linear-gradient(top,#209C94,#258AC0);
+    background: -ms-linear-gradient(top,#209C94,#258AC0);
+    background: -o-linear-gradient(top,#209C94,#258AC0);
+}
+#box{
+    position:absolute;
+    width:360px;
+    height:260px;
+    left:50%;
+    top:50%;
+    margin-left:-180px;
+    margin-top:-130px;
+    background-color:rgba(215,237,248,0.1);
+    -webkit-box-shadow:0 0 0 2px #8396A4;
+    border-radius:10px;
+}
+#header{
+    height:50px;
+    font-size:20px;
+    color:white;
+    line-height:50px;
+    text-align:center;
+}
+#sign_in{
+    width:360px;
+    height:160px;
+}
+#sign_in form table{
+    margin:20px auto;
+    border-collapse:separate;
+    border-spacing:20px;
+}
+#sign_in form table input{
+    width:200px;
+    height:30px;
+    background-color:rgba(255,255,255,0.3);
+    border:none;
+    -webkit-box-shadow:0 0 0 1px #68817A;
+}
+#sign_in form table
+.c1{
+    color:white;
+    font-size:20px;
+}
+#btn{
+    width:360px;
+    height:40px;
+}
+#btn input{
+    border:none;
+    background-color:rgba(255,255,255,0.2);
+    color:white;
+    width:70px;
+    height:30px;
+    margin-left:74px;
+}
